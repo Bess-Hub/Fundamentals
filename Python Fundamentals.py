@@ -1,4 +1,4 @@
-#PRINT FUNCTION is used to display something, it can be a string, an interget, a float, a boolean.
+#PRINT FUNCTION is used to display something, it can be a string, an interger, a float, a boolean.
 
 # Can print a string
 print("Example of a string:")
