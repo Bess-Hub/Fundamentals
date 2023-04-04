@@ -1,4 +1,4 @@
-#PRINT FUNCTION is used to display something, it can be a string, an interger, a float, a boolean.
+#PRINT FUNCTION is used to display something, it can be a string, an interget, a float, a boolean.
 
 # Can print a string
 print("Example of a string:")
@@ -58,10 +58,23 @@ print()
 # We can define elements, as this example of a static element
 name = "Bessem"
 
-# When concatenating elements we can use , or +
+# When concatenating elements we can use , or + or ,
 # + will not add space in between
-print("Hello "+name+"!")
+print("Hello, "+name+"!")
 # , will add space in between
-print("Hello",name,"!")
+print("Hello,",name,"!")
 # So we might need to use both sometimes.
-print("Hello",name+"!")
+print("Hello,",name+"!")
+print()
+
+# The use of % is not recommended by the documentation. Idk where the dot at the end of the following string came from, for example.
+print("Hello, %s." % name)
+print()
+
+# Now lets take a loot at formating strings
+# Some people will write with an f upfront what is to be printed. This will make the code cleaner for when concatenating and formating.
+print(f"Hello, {name}!")
+# We can format it by adding a . and choosing an option, like lower
+print(f"Hello, {name.lower()}!")
+# Or upper
+print(f"Hello, {name.upper()}!")
